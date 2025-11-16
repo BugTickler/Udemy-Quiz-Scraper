@@ -1,6 +1,6 @@
 The extension automatically runs through the test questions and saves the questions, answers, explanations, and the correct answer to a spreadsheet. 
 It's best to use it after you've already answered the questions, as it can help avoid timeouts on slower connections. 
-The extension works locally by reading only HTML. The extension should work without issue on the English and Polish versions of Udemy.
+The extension works locally by reading only HTML. The extension should work on the English and Polish versions of Udemy.
 
 <img width="273" height="212" alt="Zrzut ekranu 2025-11-16 024008" src="https://github.com/user-attachments/assets/e70b7f22-7132-42f8-b995-8e6e428ba465" />
 
@@ -19,3 +19,4 @@ Usage:
 Known Issues:
 - Sometimes Udemy takes too long to load buttons, causing the extension to timeout. You can try again or adjust the timeout option in the code.
 - Sometimes the extension saves the question before and after it answers the question. I'm working on a fix, until I have to manually remove duplicates from the sheet.
+- Occasionally, Udemy may change the selectors on buttons, so you may need to check which ones are actually present and make changes in the code. I'm working on fixing this.
