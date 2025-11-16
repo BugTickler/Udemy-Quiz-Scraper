@@ -13,8 +13,10 @@ Usage:
 - Open the test on Udemy in practice mode
 - Click the extension icon
 - Click "Scrape All Questions" to have the extension run the test and save all questions, answers, and explanations.
-- Click "Download XSLS" to download the spreadsheet
+- Click "Export XSLS" to download the spreadsheet
 - If you want to run another test, press the "Reset" button to clear previously saved questions.
+
+- You can also add questions individually using the Add Question button and download all of them manually after completing the test.
 
 Known Issues:
 - Sometimes Udemy takes too long to load buttons, causing the extension to timeout. You can try again or adjust the timeout option in the code.
