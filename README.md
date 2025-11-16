@@ -6,7 +6,7 @@ The extension works locally by reading only HTML. The extension should work on t
 
 Extension Installation:
 - Go to your browser's extension management
-- Click "Upload Unzipped"
+- Click "Upload Unzipped/Unpacked"
 - Specify the folder with the extension files
 
 Usage:
