@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Udemy Scraper</title>
+<style>
+body { font-family: Arial; padding: 10px; width: 250px; }
+button { display: block; margin: 5px 0; width: 100%; }
+#status { margin-top: 10px; font-weight: bold; }
+</style>
+</head>
+<body>
+<h3>Udemy Quiz Scraper</h3>
+<p>Questions added: <span id="count">0</span></p>
+<button id="scrapeBtn">Add Question</button>
+<button id="scrapeAllBtn">Scrape All Questions</button>
+<button id="exportBtn">Export XLSX</button>
+<button id="resetBtn">Reset</button>
+<p id="status"></p>
+
+<script src="libs/xlsx.full.min.js"></script>
+<script src="popup.js"></script>
+</body>
+</html>
